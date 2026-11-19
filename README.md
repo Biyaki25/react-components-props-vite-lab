@@ -18,8 +18,8 @@ We'll be creating a personal blog site, similar to
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-component-props-mini-project/demo.png)
 
-There is some starter code available in `src/components/App.js`. There is also
-some data in `data/blog.js` that is being imported into `App` so you can pass it
+The app entry point is in `src/components/App.jsx`. There is also
+some data in `src/data/blog.js` that is imported into `App` so you can pass it
 down to the components that need it.
 
 ## Deliverables
@@ -90,5 +90,6 @@ If the article takes 30 minutes or longer to read:
   display "🍱🍱🍱🍱 35 min read". If the article takes 61 minutes to read, you
   should display "🍱🍱🍱🍱🍱🍱🍱 61 min read".
 
-There aren't tests for this feature, so you'll have to rely on running the code
-in the browser to see if your implementation works!
+The project includes automated tests for the core component behavior. You can
+run them with `npm test -- --run`, and you can run the production build with
+`npm run build`.
